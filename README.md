@@ -24,8 +24,8 @@ pip install -r requirements.txt
 
 The order in which we could see the various agents is below:
 
-* **agent_silly.py**, without an agent
+* **agent_silly.py**, an "agent" that uses no tools (basically just an LLM)
+* **agent_readfile.py**, reads a text file in the current directory
 * **agent_vebpage.py**, search a web page
-* search on a local file
 * **agent_searxng.py**, with an agent who searches the web with [searxng](https://docs.searxng.org/)
-* **agent_zim.py**, with an agent that uses the MCP protocol
+* **agent_zim.py**, with an agent that uses the MCP protocol to search into a [ZIM file](https://library.kiwix.org/#lang=eng)
